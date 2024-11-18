@@ -13,7 +13,6 @@ Program ini dibuat menggunakan bahasa python Dictionary dengan fitur:
 * *Mencari data mahasiswa:* Pengguna dapat mencari data mahasiswa berdasarkan NIM.
 ## Flowchart Programan
 ![Flowchart](https://github.com/Dwiokta10/Praktikum6/blob/main/flowchartprak6.png)
-.....
 # Kode Program
 ```python
 # Program Input Nilai Mahasiswa
@@ -143,7 +142,153 @@ while True:
 ```
 # Output Program
 ```
+PS C:\Users\acer\Documents\KULIAH\PEMROGRAMAN\Pratikum 6 Bahasa Pemrograman> python -u "c:\Users\acer\Documents\KULIAH\PEMROGRAMAN\Pratikum 6 Bahasa Pemrograman\Daftar nilai mhs dictionary.py"
 
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410068
+Nama: Kenzi
+Nilai Tugas: 98
+Nilai UTS: 96
+Nilai UAS: 99
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410098
+Nama: Ayen
+Nilai Tugas: 97
+Nilai UTS: 98
+Nilai UAS: 99
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410053
+Nama: Marseal
+Nilai Tugas: 98
+Nilai UTS: 96
+Nilai UAS: 90
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410045
+Nama: Budi
+Nilai Tugas: 98
+Nilai UTS: 96
+Nilai UAS: 99
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410042
+Nama: Loriska
+Nilai Tugas: 87
+Nilai UTS: 99
+Nilai UAS: 94
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: T
+
+Tambah Data Mahasiswa
+NIM: 312410056
+Nama: Dwi
+Nilai Tugas: 100
+Nilai UTS: 100
+Nilai UAS: 100
+Data berhasil ditambahkan!
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: L
+
+Daftar Nilai Mahasiswa
+============================================================
+| NO |    NIM    |    NAMA    | TUGAS | UTS | UAS | AKHIR |
+============================================================
+| 1  | 312410068 | Kenzi      | 98.0  | 96.0 | 99.0 | 97.65 |
+| 2  | 312410098 | Ayen       | 97.0  | 98.0 | 99.0 | 98.05 |
+| 3  | 312410053 | Marseal    | 98.0  | 96.0 | 90.0 | 94.50 |
+| 4  | 312410045 | Budi       | 98.0  | 96.0 | 99.0 | 97.65 |
+| 5  | 312410042 | Loriska    | 87.0  | 99.0 | 94.0 | 93.65 |
+| 6  | 312410056 | Dwi        | 100.0 | 100.0 | 100.0 | 100.00 |
+============================================================
+
+Menu Utama:
+(T)ambah Data
+(U)bah Data
+(H)apus Data
+(L)ihat Data
+(C)ari Data
+(K)eluar
+Pilih menu: K
+Keluar dari program. Terima kasih!
+PS C:\Users\acer\Documents\KULIAH\PEMROGRAMAN\Pratikum 6 Bahasa Pemrograman> 
 ```
 # Cara Kerja Program
-``` 
+Program sederhana ini menggunakan tipe data dictionary dalam Python untuk menyimpan data mahasiswa. Setiap kunci dalam dictionary adalah NIM mahasiswa, dan nilainya adalah dictionary lain yang berisi informasi lengkap tentang mahasiswa tersebut (nama, nilai tugas, UTS, UAS, dan nilai akhir).
+1. Menu Utama akan ditampilkan setiap kali program dijalankan.
+2. Pengguna dapat memilih salah satu opsi menu:
+    - Tambah Data Fungsi ini menambahkan data mahasiswa baru ke dalam dictionary.
+    - Ubah Data Fungsi ini mengubah data mahasiswa yang sudah ada.
+    - Hapus Data Fungsi ini menghapus data mahasiswa.
+    - Tampilkan Data Fungsi ini menampilkan semua data mahasiswa yang tersimpan dalam format tabel.
+    - Cari Data Fungsi ini mencari data mahasiswa berdasarkan NIM.
+    - Keluar
+   Program akan menjalankan fungsi yang sesuai dengan pilihan pengguna.
+
+   Setelah selesai, program akan kembali ke Menu Utama.
+   Jika pengguna memilih Keluar, program akan berhenti berjalan.
