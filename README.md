@@ -12,7 +12,7 @@ Program ini dibuat menggunakan bahasa python Dictionary dengan fitur:
 * *Menghapus data mahasiswa:* Pengguna dapat menghapus data mahasiswa yang sudah tidak diperlukan.
 * *Mencari data mahasiswa:* Pengguna dapat mencari data mahasiswa berdasarkan NIM.
 ## Flowchart Programan
-![Flowchart](.png)
+![Flowchart](https://github.com/Dwiokta10/Praktikum6/blob/main/flowchartprak6.png)
 .....
 # Kode Program
 ```python
@@ -146,4 +146,4 @@ while True:
 
 ```
 # Cara Kerja Program
-``` .......
+``` 
